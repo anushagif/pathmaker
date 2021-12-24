@@ -3,7 +3,7 @@ import React from 'react'
 const index = () => {
     return (
         <div>
-          <h1>  Abouthjgggggggggggggggggggggggggggvghvghc</h1>
+          <h1>  Abouth</h1>
         </div>
     )
 }

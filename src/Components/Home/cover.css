@@ -4,6 +4,7 @@
   justify-content: center;
   align-content: space-between;
   overflow: hidden;
+ 
 }
 
 .image-cover {
@@ -47,7 +48,7 @@
 .cards{
   display: flex;
   flex-direction: row;
-  padding:100;
+  padding:100px;
   justify-content: space-between;
 
 }
@@ -75,14 +76,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-  
+
   }
+ 
   .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: inset rgb(134 112 213 / 35%) -2px 3px 168px 0px;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .q-text h1{
+    font-size: medium;
+    margin-bottom: 50px;
+   
+  }
+  .q-text h4{
+    font-size: small;
+    font-weight: 500;
   }
   
 }

@@ -7,6 +7,7 @@
   align-items: center;
   box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.2);
   font-size: 3rem;
+  width: 98.8vw;
   
 }
 img.logo {
@@ -79,10 +80,9 @@ img.logo {
   width: 18rem;
   background-color: var(--background);
   height:90vh;
-
   position:absolute;
   left:-100%;
-  top: 11vhvh;
+  top: 11vh;
   transition: 0.3 all ease-in-out;
   
 }
@@ -134,5 +134,4 @@ img.logo {
 } 
 
 
-
-  
+ 

@@ -3,8 +3,7 @@ import {
   CareerIcon,
   FeatureIcon,
   AboutusIcon,
-  DropdownIcon,
-  DropupIcon,
+ 
 } from "../icon";
 
 export const Navitems = [
