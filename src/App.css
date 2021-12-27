@@ -5,9 +5,10 @@
  padding: 0;   
  box-sizing: border-box;
  font-family: 'Poppins', sans-serif;
+ 
 }
 :root {
-    --brand-primary: #673ab7;
+    --brand-primary: #0c2d6b;
     --background: #f2f2f2;
     --white: #ffffff;
     --black: #111111;

@@ -22,7 +22,8 @@
   justify-content: space-evenly;
   padding: 10px 0px 10px 0px;
   margin-top: 7px;
-  box-shadow: inset rgb(134 112 213 / 35%) 1px 36px 100px 41px;
+  background: linear-gradient(45deg, #dde3ee, #92f4d2);
+  box-shadow: inset #496395 1px 36px 100px 41px;
   flex-direction: column;
   padding: 80px;
 }
@@ -31,12 +32,16 @@
   display: flex;
   box-shadow: rgb(84 60 169 / 35%) 1px 36px 100px 41px;
   border-radius: 33px;
+  background: #ffffff;
 }
 .content {
   padding: 50px 0px 33px 0px;
   background-color: var(--background);
 }
-.q-text {
+.content h3:hover{
+  color: #0c2d6b;
+}
+.q-text{
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -44,12 +49,22 @@
   padding: 50px;
   align-items: center;
   margin-top: 30px;
+  z-index: 2 !important;
+  background: linear-gradient(133deg, #366bcc, #92f4d2);
+  box-shadow:rgb(120 205 208) 59px -66px 75px 93px;
 }
+.q-text:hover{
+  
+  color:#1e3eb3;
+  
+}
+
 .cards{
   display: flex;
   flex-direction: row;
   padding:100px;
   justify-content: space-between;
+  background: linear-gradient(45deg, #366bcc, #92f4d2);
 
 }
 @media (max-width: 1060px) {
@@ -89,13 +104,15 @@
 }
 @media only screen and (max-width: 768px) {
   .q-text h1{
-    font-size: medium;
-    margin-bottom: 50px;
-   
+    font-size: 40px !important;
+    line-height: 44px !important;
+    font-weight: 800 !important;
+    
   }
   .q-text h4{
-    font-size: small;
-    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
+
   
 }

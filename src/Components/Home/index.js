@@ -49,7 +49,7 @@ const index = () => {
         </div>
       </div>
       <div className="content">
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1}}>
           <Grid
             container
             spacing={{ xs: 2, md: 3 }}
@@ -57,7 +57,7 @@ const index = () => {
           >
             <Grid item xs={12} sm={4} md={4}>
               <Item xs={12} sm={4} md={4}>
-                <Avatar>
+                <Avatar >
                   <BulbIcon />
                 </Avatar>
                 <h3>Explore New Oppertunity</h3>

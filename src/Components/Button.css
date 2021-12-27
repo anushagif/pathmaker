@@ -18,8 +18,9 @@
 
 }
 .btn-nav:hover{
- background-color: #c8c0d6;
- color: #673ab7;
+ background-color: #0f3b8b;
+ color: #ece8f3;
+ box-shadow: 0 0 5px #0c2d6b  ,0 0 50px #0c2d6b,0 0 200px #0c2d6b ;
 
 }
 a{
