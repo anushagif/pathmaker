@@ -4,6 +4,7 @@
   justify-content: center;
   align-content: space-between;
   overflow: hidden;
+  width: 100vw;
  
 }
 
@@ -26,6 +27,7 @@
   box-shadow: inset #496395 1px 36px 100px 41px;
   flex-direction: column;
   padding: 80px;
+  
 }
 
 .search-cover {
@@ -51,7 +53,8 @@
   margin-top: 30px;
   z-index: 2 !important;
   background: linear-gradient(133deg, #366bcc, #92f4d2);
-  box-shadow:rgb(120 205 208) 59px -66px 75px 93px;
+  width: 100vw;
+  
 }
 .q-text:hover{
   
@@ -59,14 +62,17 @@
   
 }
 
+
 .cards{
   display: flex;
   flex-direction: row;
-  padding:100px;
   justify-content: space-between;
   background: linear-gradient(45deg, #366bcc, #92f4d2);
+  padding: 15px;
+  
 
 }
+
 @media (max-width: 1060px) {
   .cover {
     flex-direction: column;
@@ -79,6 +85,7 @@
     justify-content: space-around;
     margin-top: 0px;
     box-shadow: inset rgb(134 112 213 / 35%) 1px -1px 26px 18px;
+    
   }
   .image-cover img {
     padding: 0px;
@@ -104,15 +111,15 @@
 }
 @media only screen and (max-width: 768px) {
   .q-text h1{
-    font-size: 40px !important;
+   
     line-height: 44px !important;
     font-weight: 800 !important;
     
+    
   }
   .q-text h4{
-    font-size: 20px !important;
+    
     line-height: 28px !important;
+    font-weight: 800 !important;
   }
-
-  
 }

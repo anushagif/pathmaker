@@ -7,15 +7,17 @@
   align-items: center;
   box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.2);
   font-size: 3rem;
-  width: 98.8vw;
+  width: 100vw;
+  overflow: hidden;
   
+
 }
 img.logo {
   width: 70px;
   height: 70px;
   display: flex;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 .nav-btn {
   margin-right: 6rem;
@@ -84,10 +86,14 @@ img.logo {
   left:-100%;
   top: 11vh;
   transition: 0.3 all ease-in-out;
+  position: fixed;
   
 }
 .sideBar-active {
   left:0;
+  position: fixed;
+  background: var(--background);
+  width: 100vw;
 }
 
 .side-items {

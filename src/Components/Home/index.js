@@ -108,7 +108,8 @@ const index = () => {
           <h4>Choose the rigth career that interest you.</h4>
         </div>
         <div className="cards">
-          <Card sx={{ maxWidth: 345, marginTop: 4 }}>
+          <div className="card1">
+          <Card sx={{ maxWidth: 500, marginTop: 4, width: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -131,7 +132,9 @@ const index = () => {
               </Button>
             </CardActions>
           </Card>
-          <Card sx={{ maxWidth: 345, marginTop: 4 }}>
+          </div>
+          <div className="card2"> 
+          <Card sx={{ maxWidth: 500, marginTop: 4, width: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -155,8 +158,10 @@ const index = () => {
               </Button>
             </CardActions>
           </Card>
+          </div>
 
-          <Card sx={{ maxWidth: 345, marginTop: 4 }}>
+          <div className="card2">
+          <Card sx={{ maxWidth: 500, marginTop: 4, width: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -179,6 +184,7 @@ const index = () => {
               </Button>
             </CardActions>
           </Card>
+        </div>
         </div>
       </div>
 
